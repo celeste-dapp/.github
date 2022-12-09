@@ -1,1 +1,38 @@
-# .github
+# Celeste
+## Main Features
+- Social media platform running on the blockchain
+- DAO - Decentralised decision making
+- Users can sell posts to other users for a price determined by their engagement
+- Users can earn tokens over time with their posts by staking
+	- Posts have a certain value, determined by their engagement
+		- Unstaked value: the value of the post based on engagements before staking, after staking this value can go up
+		- Staked value: the value of the post locked in at a certain value which earns rewards
+		- Total value: the unstaked and staked value combined (the staking rewards go directly to the users wallet)
+	- If a user stakes a post, they get a percentage reward
+	- Thus, if their post gets more engagements, then they earn more rewards
+- Custom ERC20 token (name: Celeste, symbol: CST)
+	- Total market cap of some number
+	- Token distributor contract has X amount of tokens
+	- Each post is given a "score" based on its engagements
+	- The number of tokens to give is equal to (score / total score) * tokens available
+- General post features
+	- Comments
+		- Hearts/favorites
+		- Replies
+	- Likes (Stars)
+	- Boost (Similar to retweeting)
+- User created "plugins" which users can download and install in their version of the site
+- Pages
+	- Home
+	- Search
+	- Subscriptions
+	- Short content
+	- Profile
+		- Settings
+			- NFT profile picture
+			- Wallet domains
+			- Application language (Hub, Content Gateway, etc.)
+	- Trending
+		- Categories
+	- Hashtags
+	- Notifications
